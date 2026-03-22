@@ -15,6 +15,16 @@ export const CryptoCard = ({ crypto }) => {
       </div>
       <div className="crypto-price">
         <p className="price">{formatPrice(crypto.current_price)}</p>
+        <p
+          className={`change ${crypto.price_change_percentage_24h >= 0 ? "positive" : "negative"}`}
+        >
+          {crypto.price_change_percentage_24h >= 0 ? (
+            <i class="fa-solid fa-arrow-trend-up"></i>
+          ) : (
+            <i class="fa-solid fa-arrow-trend-down"></i>
+          )}{" "}
+          {Math.abs(crypto.price_change_percentage_24h).toFixed(2)}%
+        </p>
       </div>
     </div>
   );
