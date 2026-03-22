@@ -15,7 +15,25 @@ export const Home = () => {
       setCryptoList(data);
     } catch (error) {
       console.error("Error fetching crypto data: ", error);
+    } finally {
+      setIsLoading(false);
     }
   };
-  return <div className="">Home Page</div>;
+  return (
+    <div className="app">
+      {" "}
+      {isLoading ? (
+        <div className="loading">
+          <div className="spinner"></div>
+          <p>Loading crypto data...</p>
+        </div>
+      ) : (
+        <div className="crypto-container">
+          {cryptoList.map((crypto, key) => (
+            <CryptoCard crypto={crypto} />
+          ))}
+        </div>
+      )}
+    </div>
+  );
 };
