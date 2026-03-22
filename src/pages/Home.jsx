@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchCryptos } from "../api/coinGecko";
+import { CryptoCard } from "../components/CryptoCard";
 
 export const Home = () => {
   const [cryptoList, setCryptoList] = useState([]);
@@ -30,7 +31,7 @@ export const Home = () => {
       ) : (
         <div className="crypto-container">
           {cryptoList.map((crypto, key) => (
-            <CryptoCard crypto={crypto} />
+            <CryptoCard crypto={crypto} key={key} />
           ))}
         </div>
       )}
