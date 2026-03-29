@@ -4,7 +4,7 @@ A React-based cryptocurrency dashboard that displays real-time data for various 
 
 ## 🌐 Live Demo
 
-https://your-live-site.com
+https://crypto-price-viewer-8kxc.onrender.com/
 
 ## 💡 Why I Built This
 
