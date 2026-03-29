@@ -1,16 +1,77 @@
-# React + Vite
+# 💰 Crypto Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based cryptocurrency dashboard that displays real-time data for various cryptocurrencies including price, market cap, and trends.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://your-live-site.com
 
-## React Compiler
+## 💡 Why I Built This
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built this project to improve my React skills and learn how to work with external APIs, manage state, and display dynamic data in a clean and responsive UI.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📊 View real-time cryptocurrency prices
+- 🔍 Search and filter coins instantly by rank, price, market cap, and more
+- 📈 View 24h price change percentages
+- ⚡ Fast and responsive interface
+- 🌐 Data fetched from CoinGecko API
+
+## ⚛️ React Concepts Used
+
+- useState & useEffect hooks
+- Component-based architecture
+- API data fetching
+- Conditional rendering
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- CSS
+- Fetch API
+- CoinGecko API
+
+## 📸 Screenshots
+
+![Home Page Screenshot](./screenshots/crypto-tracker-home.png)
+![Coin Detail Page Screenshot](./screenshots/crypto-tracker-coin.png)
+
+## ⚙️ Installation
+
+1. Clone the repository:
+   git clone https://github.com/PaulEmmanuel8888/Crypto-Price-Viewer.git
+
+2. Navigate into the project folder:
+   cd crypto-price-viewer
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+## 🌍 API Used
+
+- CoinGecko API
+
+## 📖 Usage
+
+- Browse the list of cryptocurrencies
+- Use the search bar to find specific coins
+- View real-time price, market data, and dynamic charts
+
+## 🔮 Future Improvements
+
+- User authentication & watchlist
+- Dark/light mode toggle
+- Portfolio tracking feature
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and submit a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License.
