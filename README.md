@@ -4,7 +4,7 @@ A React-based cryptocurrency dashboard that displays real-time data for various 
 
 ## 🌐 Live Demo
 
-https://crypto-price-viewer-8kxc.onrender.com/
+https://coinmetrics.onrender.com/
 
 ## 💡 Why I Built This
 
@@ -41,7 +41,7 @@ I built this project to improve my React skills and learn how to work with exter
 ## ⚙️ Installation
 
 1. Clone the repository:
-   git clone https://github.com/PaulEmmanuel8888/Crypto-Price-Viewer.git
+   git clone https://github.com/PaulEmmanuel8888/CoinMetrics.git
 
 2. Navigate into the project folder:
    cd crypto-price-viewer
