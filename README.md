@@ -1,4 +1,4 @@
-# 💰 Crypto Tracker
+# 💰 CoinMetrics
 
 A React-based cryptocurrency dashboard that displays real-time data for various cryptocurrencies including price, market cap, and trends.
 

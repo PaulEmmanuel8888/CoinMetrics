@@ -62,7 +62,7 @@ export const Home = () => {
           <div className="logo-section">
             <h1>
               {" "}
-              <i class="fa-solid fa-rocket"></i> Crypto Tracker
+              <i class="fa-solid fa-coins"></i> CoinMetrics
             </h1>
             <p>Real-time cryptocurrency prices and market data</p>
           </div>
