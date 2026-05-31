@@ -44,7 +44,7 @@ I built this project to improve my React skills and learn how to work with exter
    git clone https://github.com/PaulEmmanuel8888/CoinMetrics.git
 
 2. Navigate into the project folder:
-   cd crypto-price-viewer
+   cd CoinMetrics
 
 3. Install dependencies:
    npm install
