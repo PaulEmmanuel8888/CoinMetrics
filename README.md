@@ -35,8 +35,8 @@ I built this project to improve my React skills and learn how to work with exter
 
 ## 📸 Screenshots
 
-![Home Page Screenshot](./screenshots/crypto-tracker-home.png)
-![Coin Detail Page Screenshot](./screenshots/crypto-tracker-coin.png)
+![Home Page Screenshot](./screenshots/coinmetrics-home.png)
+![Coin Detail Page Screenshot](./screenshots/coinmetrics-coin.png)
 
 ## ⚙️ Installation
 
